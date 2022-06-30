@@ -45,6 +45,9 @@ kind delete -A
 # 個別削除する場合
 kind delete cluster --name dev
 kind delete cluster --name prod
+
+# 設定ファイルを使用して起動
+kind create cluster --config kind-config.yaml
 ```
 
 ### ArgoCD
