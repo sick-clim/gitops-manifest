@@ -9,5 +9,5 @@ spec:
     namespace: argocd
     server: https://kubernetes.default.svc
   source: 
-    path: gitops-manifest/manifests/argo-rollouts/base/
+    path: manifests/argo-rollouts/base/
     repoURL: https://github.com/argoproj/argocd-example-apps.git
