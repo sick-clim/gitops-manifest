@@ -10,4 +10,4 @@ spec:
     server: https://kubernetes.default.svc
   source: 
     path: manifests/argo-rollouts/base
-    repoURL: https://github.com/argoproj/argocd-example-apps.git
+    repoURL: https://github.com/sick-clim/gitops-manifest
